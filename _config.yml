@@ -1,0 +1,4 @@
+title: Shaheen's Site
+description: My articles, projects, learning notes, and daily journal.
+baseurl: ""       # leave empty for username.github.io
+url: "https://username.github.io"  # later change to your custom domain
