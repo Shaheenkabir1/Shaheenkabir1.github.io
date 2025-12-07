@@ -5,5 +5,10 @@ permalink: /journal/
 ---
 # Daily Journal
 
-Short daily notes.  
-(You can make specific entries here as blog posts or as pages.)
+{% for post in site.categories.journal %}
+### {{ post.date | date: "%Y-%m-%d" }} — [{{ post.title }}]({{ post.url | relative_url }})
+
+{{ post.excerpt }}
+
+---
+{% endfor %}
